@@ -1,0 +1,25 @@
+test2 {
+
+	def increment(number oldNum : number newNum) {
+		newNum = oldNum + 1;
+	}
+	
+	main {
+		number i = 0;
+		
+		while (i <= 10) 
+		{
+			if (i < 3) {
+				display("i < 3 where i = " + i);
+			} elseif (i < 5) {
+				display("i < 6 where i = " + i);
+			} elseif (i < 8) {
+				display("i < 8 where i = " + i);
+			} else {
+				display("i <= 10 where i = " + i);
+			}
+			i = increment(i);
+		}
+	}
+
+}

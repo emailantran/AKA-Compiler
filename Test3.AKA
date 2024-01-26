@@ -1,0 +1,29 @@
+test3 {
+
+
+	def fibonacci(number n) {
+	    number a = 0;
+	    number b = 1;
+	
+	    display("Fibonacci sequence up to");
+	    display(n);
+	    
+	    display();
+	
+	    display(a);
+	    display(b);
+	
+		number next = -1;
+	    while (n > 2) {
+	        next = a + b;
+	        display(next);
+	        a = b;
+	        b = next;
+	        n = n - 1;
+	    }
+	}
+	
+	main {
+		fibonacci(10);
+	}
+}

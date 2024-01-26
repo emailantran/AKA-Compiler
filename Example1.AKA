@@ -1,0 +1,16 @@
+prog1 {
+
+$funcblock$
+
+$end funcblock$
+
+$mainblock$
+
+	main {
+		display (5.1234567 + 3);
+	}
+
+
+$end mainblock$
+
+}
